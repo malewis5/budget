@@ -1,7 +1,14 @@
 import "./App.css";
 
+// Custom Components
+import { Header } from "./components/header";
+
 function App() {
-  return <div className="App">Hello, world.</div>;
+  return (
+    <div className="App">
+      <Header />
+    </div>
+  );
 }
 
 export default App;
